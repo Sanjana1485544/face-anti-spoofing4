@@ -1,5 +1,3 @@
-# face-anti-spoofing4
-
 # Face Anti-Spoofing (AE + DDPM + JEPA)
 
 ## 🚀 Overview
@@ -26,3 +24,33 @@ Input → Models → Ensemble → REAL / FAKE
 ## 👤 Author
 
 Sanjana Reddy
+
+## 📊 Final Results
+
+### ✅ Real Face Detection
+
+* AE Error: 0.0133
+* DDPM Error: 0.0069
+* JEPA Score: 0.2934
+* **Final Prediction: REAL**
+
+### ❌ Fake Face Detection
+
+* AE Error: 0.0253
+* DDPM Error: 0.0076
+* JEPA Score: 0.4459
+* **Final Prediction: FAKE**
+
+---
+
+## 🧠 Key Observations
+
+* Real faces produce **low reconstruction error**
+* Fake faces produce **higher error and inconsistency**
+* Ensemble of AE + DDPM + JEPA improves robustness
+
+---
+
+## 🎯 Conclusion
+
+The system successfully distinguishes between real and spoofed faces using a hybrid multi-model approach.
