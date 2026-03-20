@@ -40,6 +40,9 @@ Sanjana Reddy
 * DDPM Error: 0.0076
 * JEPA Score: 0.4459
 * **Final Prediction: FAKE**
+<img width="2047" height="1331" alt="image" src="https://github.com/user-attachments/assets/12c03fdd-1cbb-44fb-b975-0566c4287176" />
+
+
 
 ---
 
